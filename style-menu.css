@@ -1,3 +1,114 @@
-.menu-container{
-    background-color: aqua;
+.profile-container{
+    width: 40%;
+    padding: 1rem;
+    margin: 0 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cabinet{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333333;
+}
+.profile{
+    background-image: url('./img/profile-icon/Vector.png');
+}
+.bascket{
+    background-image: url('./img/profile-icon/Vector\ \(1\).png');
+}
+.profile, .bascket{
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 30px;
+}
+
+.menu-click {
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__link--active{
+    border-bottom: 4px solid #B59571;
+
+}
+.menu__dishes {
+}
+.menu__link {
+}
+.menu__link--span {
+}
+.menu__bar {
+}
+
+.menu-list--dishes, .menu-list--bar {
+    width: 68%;
+    padding: 30px 6%;
+    padding-left: calc(6% + 12%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.menu__card {
+    border: 1px solid #c6c5c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 350ms linear;
+    max-width: 304px;
+}
+.menu__card:hover{
+    box-shadow: 7px 8px 23px -1px rgba(0,0,0,0.75);
+    transition: box-shadow 350ms linear;
+}
+.card__img{  
+    width: 302px;
+    height: auto; 
+}
+.card-title {
+    margin: 30px 0;
+}
+.price-container {
+    width: 60%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #333333;
+}
+.buy__btn {
+    padding: 10px 20px;
+    background: #B59571;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    transition: opacity 300ms linear;
+}
+.buy__btn:hover{
+    opacity: 0.8;
+    transition: opacity 300ms linear;
+}
+
+.menu-list--bar{
+
 }

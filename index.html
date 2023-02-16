@@ -8,6 +8,23 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- ------------------------------- Modal -------------------------------------- -->
+<div class="modal-container">
+    <form action="" class="modal-form">
+        <span class="modal__close-btn"></span>
+        <span class="logo"></span>
+        <h3 class="modal__title">Reserve</h3>
+        <div class="input-wrap">
+            <input type="text" class="modal__name inpt" placeholder="name">
+            <input type="tel" class="modal__phone inpt" placeholder="phone">
+            <input type="number" class="modal__guests inpt" placeholder="guests">
+            <input type="time" class="modal__time inpt" > 
+        </div>
+        <button type="submit" class="modal__btn">submit</button>
+    </form>
+</div>
+
+
     <header class="header">
         <div class="side-bar">
             <div class="logo-container">
@@ -24,7 +41,7 @@
             <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
             <li class="nav__item"><a href="#delivery" class="nav__link">Delivery</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Payment</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Reservation</a></li>
+            <li class="nav__item"><a href="#" class="nav__link reservation">Reservation</a></li>
         </nav>
         <h2 class="header__title">restaurant FOOD EXXO RELO in Manhattan</h2>
     </header>
@@ -59,11 +76,11 @@
                     </p>
                 </div>
                 <div class="menu-link-container">
-                    <a href="#" class="menu-link">
+                    <a href="menu.html" class="menu-link">
                         <img src="./img/Rectangle 40.png" alt="pic">
                         <h2 class="section-title menu-link__title">main menu</h2>
                     </a>
-                    <a href="#" class="menu-link">
+                    <a href="menu.html" class="menu-link">
                         <img src="./img/Rectangle 42.png" alt="pic">
                         <h2 class="section-title menu-link__title">bar menu</h2>
                     </a>
@@ -141,5 +158,8 @@
             <span class="bank-card master-card"></span>
         </div>
     </footer>
+
+
+    <script src="./main.js"></script>
 </body>
 </html>

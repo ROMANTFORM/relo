@@ -5,13 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style-menu.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="menu-container">
-         <h2>MENU</h2>
-    <a href="index.html">Back to main</a>
-    </div>
-   
+    <header class="header-bar">
+        <div class="side-bar">
+            <div class="logo-container">
+               <a href="index.html" class="logo"></a> 
+               <span class="burger-menu"></span>
+            </div>
+            <div class="icon-container">
+                <span class="social-icon ytube"></span>
+                <span class="social-icon vk"></span>
+                <span class="social-icon tg"></span>
+            </div>    
+        </div>
+        
+        <div class="profile-container">
+            <span class="cabinet">Your cabinet</span>
+            <span class="profile"></span>
+            <span class="bascket"></span>
+        </div>
+
+        <ul class="menu-click">
+            <li class="menu__dishes">
+                <a href="#" class="menu__link dishes__link menu__link--active"><span class="menu__link--span">Dishes</span></a>
+            </li>
+            <li class="menu__bar">
+                <a href="#" class="menu__link bar__link"><span class="menu__link--span">Bar</span></a>
+            </li>
+        </ul>
+
+        <div class="menu-list--dishes">
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (1).png" alt="pic">
+                <h4 class="card-title">Lorem ipsum dolor</h4>
+                <div class="price-container">
+                    <span class="price">15$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (2).png" alt="pic" class="card__img">
+                <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                <div class="price-container">
+                    <span class="price">20$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (3).png" alt="pic">
+                <h4 class="card-title">Lorem, ipsum.</h4>
+                <div class="price-container">
+                    <span class="price">27$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (4).png" alt="pic">
+                <h4 class="card-title">Lorem, ipsum dolor.</h4>
+                <div class="price-container">
+                    <span class="price">24$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (5).png" alt="pic">
+                <h4 class="card-title">Lorem, ipsum.</h4>
+                <div class="price-container">
+                    <span class="price">16$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (6).png" alt="pic">
+                <h4 class="card-title">Lorem, ipsum dolor.</h4>
+                <div class="price-container">
+                    <span class="price">30$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img src="./img/menu-items/Rectangle 57 (7).png" alt="pic">
+                <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                <div class="price-container">
+                    <span class="price">28$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-list--bar">
+            <div class="menu__card">
+                <img class="card__img" src="./img/bar-items/istockphoto-1129486696-170667a.jpg" alt="pic">
+                <h4 class="card-title">Lorem.</h4>
+                <div class="price-container">
+                    <span class="price">23$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img class="card__img" src="./img/bar-items/depositphotos_183451030-stock-photo-glass-of-sex-on-the.jpg" alt="pic">
+                <h4 class="card-title">Lorem.</h4>
+                <div class="price-container">
+                    <span class="price">20$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img class="card__img" src="./img/bar-items/cocktail-mojito-in-front-of-white-background-D481KM.jpg" alt="pic">
+                <h4 class="card-title">Lorem.</h4>
+                <div class="price-container">
+                    <span class="price">21$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img class="card__img" src="./img/bar-items/a448d61431ac61c20a5f1e054f6dbe63.jpg" alt="pic">
+                <h4 class="card-title">Lorem.</h4>
+                <div class="price-container">
+                    <span class="price">19$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+            <div class="menu__card">
+                <img class="card__img" src="./img/bar-items/6797995-orange-alcohol-cocktail-with-strawberry-isolated-on-white-background.webp" alt="pic">
+                <h4 class="card-title">Lorem.</h4>
+                <div class="price-container">
+                    <span class="price">24$</span>
+                    <button type="button" class="buy__btn">Buy</button>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+   <script src="./menu.js"></script>
 </body>
 </html>
